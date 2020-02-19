@@ -30,3 +30,11 @@ h3 {
   color: FBFBF9;
   background-color:  #3A4439
 }
+hr {
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
+height: 10px;
+background-color:#000000;
+opacity: 1;
+}
