@@ -35,6 +35,7 @@ width: 1500px;
 margin-left: auto;
 margin-right: auto;
 height: 10px;
-background-color:#000000;
+background-color: #000000;
+border: 0;
 opacity: 1;
 }
