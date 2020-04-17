@@ -76,12 +76,12 @@ main section {
 footer {
 	background: #3E4637;
 	max-width: 1000px;
-	margin: auto;
+	margin: 10px;
 	clear: both;
 	text-align: right;
 }
 footer p {
-	padding: 10px;
+	padding: 20px;
 }
 address {
     padding: 10px 20px 30px 10px;
