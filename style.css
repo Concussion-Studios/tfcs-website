@@ -76,7 +76,7 @@ main section {
 footer {
 	background: #3E4637;
 	max-width: 1000px;
-	margin: 10px;
+	margin: auto;
 	clear: both;
 	text-align: right;
 }
