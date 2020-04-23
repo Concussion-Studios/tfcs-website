@@ -22,6 +22,7 @@ header {
     padding: 20px 30px;
     max-width: 940px;
     margin: auto;
+	border: inset #4C5844;
 }
 nav {
     display: inline-block;
@@ -33,7 +34,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: #FFF;
-    border-radius: 10px;
+	border: outset #5F6856;
 }
 nav ul li a:hover {
 	background: #3E4637;
@@ -53,15 +54,24 @@ nav ul {
 main {
 	float: left;
 	width: 60%;
+    border: outset #5F6856;
+    color: #FFF;
+}
+a {
+	color: #c4b654;	
 }
 aside {
 	float: right;
 	width: 30%;
+	border: outset #5F6856;
+    color: #FFF;
+    margin-bottom: 20px;
+	padding: 20px;
 }
 article {
-    border-bottom: 2px dotted #999;
-    padding-bottom: 20px;
+    border-bottom: 2px solid #999;
     margin-bottom: 20px;
+	padding: 20px;
 }
 article h2 {
     font-weight: normal;
@@ -79,6 +89,8 @@ footer {
 	margin: auto;
 	clear: both;
 	text-align: right;
+	border: inset #4C5844;
+	color: white;
 }
 footer p {
 	padding: 20px;
@@ -110,6 +122,14 @@ body > section {
     border-bottom: 1px solid #999;
     color: #000000;
 }
+strong {
+	color: white;
+}
+/* screenshot {
+    border: outset #5F6856;
+}
+// 	add some kind of border around the screenshots in screen.html?
+*/
 
 @media screen and (max-width: 1000px) {
 	body > section {
